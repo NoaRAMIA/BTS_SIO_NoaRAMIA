@@ -1,4 +1,4 @@
-Vehicule.php
+
 <?php
 
 /**
@@ -120,9 +120,8 @@ class Vehicule {
     echo "<li>Modèle      : " . $this->modele . "</li>";
     echo "<li>Nom         : " . $this->nom . "</li>";
     echo "<li>Compteur    : " . $this->compteur . "</li>";
-    echo "<li>a démarré ? : " . $this->get_lib_etat() . "</li></ul>";
-
-  
+    echo "<li>a démarré ? : " . $this->get_lib_etat() . "</li>";
+    echo "</ul>";
   }
 
 }
